@@ -1,3 +1,38 @@
+// GLOBAL
+$font-title: "Montserrat", sans-serif;
+$font-subtitle: "Droid-serif", serif;
+$font-text: "Roboto Slab", serif;
+
+.container {
+	margin: 20px auto;
+}
+
+// HEADER
+
+header img {
+	max-width: 100%;
+}
+
+// NAVIGATION
+
+nav {
+	position: relative;
+}
+
+.navbar-nav {
+	position: absolute;
+	right: 0;
+	margin-top: 20px;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	outline: none;
+	font-family: $font-title;
+}
+
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Roboto Slab', serif;
 

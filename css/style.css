@@ -1,3 +1,27 @@
+.container {
+  margin: 20px auto;
+}
 
+header img {
+  max-width: 100%;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+nav {
+  position: relative;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLQTtFQUNDLGlCQUFBO0FDSkQ7O0FEU0E7RUFDQyxlQUFBO0FDTkQ7O0FEV0E7RUFDQyxrQkFBQTtBQ1JEOztBRFdBO0VBQ0Msa0JBQUE7RUFDQSxRQUFBO0VBQ0EsZ0JBQUE7QUNSRDs7QURXQTtFQUNDLHlCQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBO0VBQ0EsYUFBQTtFQUNBLHFDQS9CWTtBQ3VCYiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
