@@ -3,35 +3,45 @@ $font-title: "Montserrat", sans-serif;
 $font-subtitle: "Droid-serif", serif;
 $font-text: "Roboto Slab", serif;
 
-.container {
-	margin: 20px auto;
-}
+// .container {
+// 	margin: 20px auto;
+// }
 
 // HEADER
 
-header img {
-	max-width: 100%;
+.background-image {
+	width: 100%;
+	object-fit: cover;
+	justify-content: center;
 }
 
 // NAVIGATION
 
-nav {
-	position: relative;
+.bg-light {
+	--bs-bg-opacity: 0;
 }
 
-.navbar-nav {
-	position: absolute;
-	right: 0;
-	margin-top: 20px;
+.navbar-collapse {
+	justify-content: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
 }
 
 .nav-link {
 	text-transform: uppercase;
 	color: white;
 	text-decoration: none;
-	outline: none;
 	font-family: $font-title;
 }
+
+.navbar-collapse {
+	text-align: right;
+	// font-size: 10px;
+	// line-height: 5px;
+}
+
 
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Roboto Slab', serif;
