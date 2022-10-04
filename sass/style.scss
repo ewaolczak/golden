@@ -3,11 +3,24 @@ $font-title: "Montserrat", sans-serif;
 $font-subtitle: "Droid-serif", serif;
 $font-text: "Roboto Slab", serif;
 
-// .container {
-// 	margin: 20px auto;
-// }
+h1,
+h3 {
+	font-family: $font-title;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: $font-subtitle;
+}
 
 // HEADER
+header {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 .background-image {
 	width: 100%;
@@ -17,12 +30,12 @@ $font-text: "Roboto Slab", serif;
 
 // NAVIGATION
 
-.bg-light {
-	--bs-bg-opacity: 0;
+nav {
+	position: relative;
 }
 
-.navbar-collapse {
-	justify-content: right;
+.bg-light {
+	--bs-bg-opacity: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -38,10 +51,41 @@ $font-text: "Roboto Slab", serif;
 
 .navbar-collapse {
 	text-align: right;
-	// font-size: 10px;
-	// line-height: 5px;
+	font-size: 14px;
+	line-height: 7px;
 }
 
+// WELCOME HEADER
+
+.welcome {
+	position: absolute;
+	text-align: center;
+	color: white;
+}
+
+.welcome h2 {
+	font-size: 3.3vw;
+	font-style: italic;
+	letter-spacing: -1px;
+	text-shadow: 0px 0px 21px rgba(26, 26, 29, 1);
+}
+
+.welcome h1 {
+	text-transform: uppercase;
+	font-size: 5.5vw;
+	text-shadow: 0px 0px 21px rgba(26, 26, 29, 1);
+}
+
+.btn-welcome {
+	font-family: $font-title;
+	font-size: 2.3vw;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #fed136;
+	border-color: #fed136;
+	width: auto;
+	padding: 8px 20px;
+}
 
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Roboto Slab', serif;
