@@ -3,20 +3,60 @@ $font-title: "Montserrat", sans-serif;
 $font-subtitle: "Droid-serif", serif;
 $font-text: "Roboto Slab", serif;
 
+$color-subtitle: #777777;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 85px 0;
+}
+
 h1,
 h3 {
 	font-family: $font-title;
 	text-transform: uppercase;
 	font-weight: 700;
+	text-align: center;
 }
 
 h2 {
 	font-family: $font-subtitle;
+	text-align: center;
+}
+
+h4 {
+	font-family: $font-title;
+	font-weight: 700;
+	text-align: center;
+	font-size: 13px;
+}
+
+.section-title {
+	font-size: 35px;
+	letter-spacing: -1px;
+}
+
+.section-subtitle {
+	font-size: 14px;
+	font-style: italic;
+	color: $color-subtitle;
+}
+
+.row {
+	justify-content: space-between;
+}
+
+.col-md-4 {
+	width: 30%;
 }
 
 // HEADER
 header {
-	position: absolute;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -64,7 +104,7 @@ nav {
 }
 
 .welcome h2 {
-	font-size: 3.3vw;
+	font-size: 3.2vw;
 	font-style: italic;
 	letter-spacing: -1px;
 	text-shadow: 0px 0px 21px rgba(26, 26, 29, 1);
@@ -73,6 +113,7 @@ nav {
 .welcome h1 {
 	text-transform: uppercase;
 	font-size: 5.5vw;
+	letter-spacing: -1.88px;
 	text-shadow: 0px 0px 21px rgba(26, 26, 29, 1);
 }
 
@@ -85,6 +126,39 @@ nav {
 	border-color: #fed136;
 	width: auto;
 	padding: 8px 20px;
+}
+
+// SERVICES
+
+.services-items {
+	margin-top: 70px;
+}
+
+.card {
+	justify-content: center;
+	border: none;
+}
+
+.icon-border {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #fed136;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	transform: translate(40%, 15%);
+}
+
+.card-text {
+	font-family: $font-text;
+	color: $color-subtitle;
+	font-size: 12px;
+	letter-spacing: -0.2px;
+	text-align: center;
 }
 
 // font-family: 'Montserrat', sans-serif;
