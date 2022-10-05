@@ -3,6 +3,7 @@ $font-title: "Montserrat", sans-serif;
 $font-subtitle: "Droid-serif", serif;
 $font-text: "Roboto Slab", serif;
 
+$background-color: #f7f7f7;
 $color-subtitle: #777777;
 
 *,
@@ -35,6 +36,7 @@ h4 {
 	font-size: 13px;
 }
 
+
 .section-title {
 	font-size: 35px;
 	letter-spacing: -1px;
@@ -48,11 +50,23 @@ h4 {
 
 .row {
 	justify-content: space-between;
+	margin: 0;
+	padding: 0;
 }
 
 .col-md-4 {
 	width: 30%;
 }
+
+.section-header {
+	margin-bottom: 70px;
+}
+
+.card {
+	justify-content: center;
+	// border: none;
+}
+
 
 // HEADER
 header {
@@ -130,16 +144,8 @@ nav {
 
 // SERVICES
 
-.services-items {
-	margin-top: 70px;
-}
-
-.card {
-	justify-content: center;
-	border: none;
-}
-
 .icon-border {
+	position: relative;
 	width: 40px;
 	height: 40px;
 	border: 2px solid #fed136;
@@ -150,7 +156,10 @@ nav {
 .icon {
 	width: 20px;
 	height: 20px;
-	transform: translate(40%, 15%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .card-text {
@@ -160,6 +169,27 @@ nav {
 	letter-spacing: -0.2px;
 	text-align: center;
 }
+
+// PORTFOLIO
+
+.portfolio h4 {
+	padding-top: 1.3rem;
+	margin-bottom: 0.2rem;
+	font-size: 15px;
+	letter-spacing: -0.45px;
+}
+
+.portfolio h2 {
+	font-size: 13px;
+	font-style: italic;
+	color: $color-subtitle;
+	padding-bottom: 1.3rem;
+}
+
+.portfolio-image img {
+	width: 100%;
+}
+
 
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Roboto Slab', serif;
