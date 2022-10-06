@@ -13,7 +13,7 @@ $color-subtitle: #777777;
 }
 
 .container {
-	padding: 85px 0;
+	padding: 50px 100px;
 }
 
 h1,
@@ -46,20 +46,17 @@ h4 {
 	font-size: 14px;
 	font-style: italic;
 	color: $color-subtitle;
+	margin-bottom: 30px;
 }
 
 .row {
 	justify-content: space-between;
-	margin: 0;
 	padding: 0;
+	margin: 30px auto;
 }
 
 .col-md-4 {
 	width: 30%;
-}
-
-.section-header {
-	margin-bottom: 70px;
 }
 
 .card {
@@ -171,6 +168,10 @@ nav {
 }
 
 // PORTFOLIO
+
+.portfolio-section {
+	background-color: $background-color;
+}
 
 .portfolio h4 {
 	padding-top: 1.3rem;
