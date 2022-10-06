@@ -13,7 +13,7 @@ $color-subtitle: #777777;
 }
 
 .container {
-	padding: 50px 100px;
+	padding: 1.5rem 2.5rem;
 }
 
 h1,
@@ -36,7 +36,6 @@ h4 {
 	font-size: 13px;
 }
 
-
 .section-title {
 	font-size: 35px;
 	letter-spacing: -1px;
@@ -55,15 +54,12 @@ h4 {
 	margin: 30px auto;
 }
 
-.col-md-4 {
-	width: 30%;
-}
-
 .card {
+	width: 30%;
 	justify-content: center;
-	// border: none;
+	margin-bottom: 3rem;
+	border: none;
 }
-
 
 // HEADER
 header {
@@ -141,6 +137,12 @@ nav {
 
 // SERVICES
 
+.services-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .icon-border {
 	position: relative;
 	width: 40px;
@@ -173,6 +175,12 @@ nav {
 	background-color: $background-color;
 }
 
+.portfolio-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .portfolio h4 {
 	padding-top: 1.3rem;
 	margin-bottom: 0.2rem;
@@ -191,6 +199,27 @@ nav {
 	width: 100%;
 }
 
+// RWD
+
+@media (max-width: 719px) {
+	.portfolio-items .card {
+		width: 45%;
+	}
+
+	.services-items .card {
+		width: 100%;
+	}
+}
+
+@media (max-width: 539px) {
+	.portfolio-items .card {
+		width: 100%;
+	}
+
+	.services-items .card {
+		width: 100%;
+	}
+}
 
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Roboto Slab', serif;
