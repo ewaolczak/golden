@@ -13,7 +13,7 @@ $color-subtitle: #777777;
 }
 
 .container {
-	padding: 1.5rem 2.5rem;
+	padding: 3.5rem 2.5rem;
 }
 
 h1,
@@ -70,6 +70,7 @@ header {
 }
 
 .background-image {
+	position: relative;
 	width: 100%;
 	object-fit: cover;
 	justify-content: center;
@@ -77,8 +78,14 @@ header {
 
 // NAVIGATION
 
-nav {
-	position: relative;
+.navbar {
+	position: absolute;
+	top: 0;
+}
+
+.navbar .container {
+	width: 100vw;
+	padding-top: 0;
 }
 
 .bg-light {

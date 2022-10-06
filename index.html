@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,31 +21,34 @@
 <body>
     <header class="col home" id="home">
         <img src="images/background-image.png" alt="background-image" class="background-image">
-        <nav class="container navbar navbar-expand-lg fixed-top navbar-dark bg-light py-4">
-            <a class="navbar-brand" href="#" alt="logo"><img src="images/logo-golden.png" alt="logo image"
-                    class="logo-image"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon p-3"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home" alt="home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services" alt="services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio" alt="porfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about" alt="about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact" alt="contact">Contact</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light py-4">
+            <div class="container">
+                <a class="navbar-brand" href="#" alt="logo"><img src="images/logo-golden.png" alt="logo image"
+                        class="logo-image"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon p-3"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home" alt="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services" alt="services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio" alt="porfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" alt="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" alt="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="container h-100 d-flex flex-column justify-content-center align-content-center welcome">
@@ -146,6 +150,19 @@
             </div>
         </div>
     </section>
+    <footer class="container d-flex flex-wrap justify-content-between align-items-left">
+        <div class="col-md-4 d-flex align-items-left">
+            <p class="footer-copyrights">© Copyright 2014 FreebiesXpress.com</p>
+        </div>
+        <div class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <ul>
+                <li><a href="#" alt="Twitter icon"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" alt="Facebook icon"></a></li>
+                <li><a href="#" alt="Pintereset icon"></a></li>
+                <li><a href="#" alt="Google icon"></a></li>
+            </ul>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
